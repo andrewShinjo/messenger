@@ -19,7 +19,7 @@ export const createOutgoingFriendRequestElement = (outgoingFriendRequest) => {
     cancelButton.friendId = outgoingFriendRequest;
     element.appendChild(text);
     element.appendChild(cancelButton);
-    element.classList.add("box");
+    element.classList.add("friend-request");
     return element;
 };
 
@@ -43,7 +43,7 @@ export const createIncomingFriendRequestElement = (incomingFriendRequest) => {
 
     element.appendChild(text);
     element.appendChild(buttonGroup);
-    element.classList.add("box");
+    element.classList.add("friend-request");
 
     return element;
 };
@@ -53,7 +53,7 @@ export const createFriendElement = (friend) => {
     const text = document.createTextNode(friend);
 
     element.appendChild(text);
-    element.classList.add("box");
+    element.classList.add("friend-element");
     return element;
 };
 
