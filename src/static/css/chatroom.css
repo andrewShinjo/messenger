@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -63,7 +67,23 @@ html, body {
     overflow-y: scroll;
 }
 
+#conversation-name {
+    border: 1px solid black;
+    margin: 0;
+    height: 10%;
+}
+
 #current-conversation {
-    max-height: 85vh;
+    height: 85%;
     overflow-y: scroll;
+}
+
+#chatroom-interface {
+    display: flex;
+    height: 5%;
+}
+
+#message-field {
+    height: 100%;
+    width: 100%;
 }
