@@ -14,7 +14,7 @@ html, body {
 
 .conversation {
     height: 75px;
-    width: 23vw;
+    width: 100%;
     
 }
 
@@ -32,6 +32,23 @@ html, body {
     padding: 5px;
 }
 
+.center-text {
+    text-align: center;
+}
+
+.message {
+
+    background-color: aquamarine;
+
+    border: 1px solid black;
+    border-radius: 10px;
+
+    width: 50%;
+
+    margin: 20px;
+    padding: 10px;
+}
+
 #chatroom-container {
     display: flex;
 }
@@ -42,14 +59,13 @@ html, body {
 
     justify-content: space-between;
 
-    height: 5vh;
+    height: 45px;
 }
 
 #chatroom-left-panel {
     border: 1px solid black;
     height: 95vh;
     width: 25vw;
-
     overflow-y: scroll;
 }
 
